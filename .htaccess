@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Site"
-AuthUserFile C:\Users\Ofenböck\Documents\Wichtig\Websiten\TheGamingGroupweb\Pass
-require valid-user
