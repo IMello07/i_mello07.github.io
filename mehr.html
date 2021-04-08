@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/logo.ico" type="image/x-icon">
+  <title>I_Mello07/language</title>
+  <link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+
+ <body>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+<h1 align="center"><a href="#" class="effect-underline">COMING SOON</a></h1>
+<hr width="60px" align="left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="data.png" alt="" height="200"/>
+ <div class="bgimg">
+   <div class="topleft">
+   </div>
+   <div class="middle">
+     <a id="demo" style="font-size:30px"></a>
+     <br>
+     <br>
+   </div>
+   <div class="bottomleft">
+   </div>
+ </div>
+ <hr width="40px" align="left">
+   <header>
+
+ <nav id="main-nav">
+   <i class="fa-bars"></i>
+   <ul>
+     <a href="index.html"><li class="white">Home</li></a>
+     <a href="personlich.html"><li class="white">About</li></a>
+     <a href="sozial.html"><li class="white">Sozial</li></a>
+   </ul>
+ </nav>
+ </header>
+
+ <script>
+ // Set the date we're counting down to
+ var countDownDate = new Date("April 1, 2022 16:30:00").getTime();
+
+ // Update the count down every 1 second
+ var countdownfunction = setInterval(function() {
+
+   // Get todays date and time
+   var now = new Date().getTime();
+
+   // Find the distance between now an the count down date
+   var distance = countDownDate - now;
+
+   // Time calculations for days, hours, minutes and seconds
+   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+   // Output the result in an element with id="demo"
+   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+   + minutes + "m " + seconds + "s ";
+
+   // If the count down is over, write some text
+   if (distance < 0) {
+     clearInterval(countdownfunction);
+     document.getElementById("demo").innerHTML = "EXPIRED";
+   }
+ }, 1000);
+ </script>
+
+ </body>
+ </html>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<footer>
+<a>&copy; 2021 DataShip</a>
+<a href="https://www.youtube.com/channel/UCaAtH9OwIz4cl3MnHihcaCw" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/diese.melone/" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-snapchat"></a>
+</footer>
